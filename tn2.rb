@@ -1,5 +1,5 @@
 puts "Введите высоту (h)"
-h = gets.chomp
+h = gets.chomp.to_i
 puts "Введите основание (а)"
-a = gets.chomp
-puts "Площадь равна #{a.to_i * h.to_i * 0.5}"
+a = gets.chomp.to_i
+puts "Площадь равна #{a * h * 0.5}"
